@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Font-awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Material icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <title><%- title %></title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="header__wrap">
+      <div class="container">
+          <div class="header">
+              <h1 class="logo"><a href="index.html" class="logo__item">EXHIBINECTION</a></h1>
+              <ul class="menu">
+                  <li class="menu__item"><a href="#" class="menu__option">Sign in</a></li>
+                  <li class="menu__item"><a href="#" class="menu__option">Sign up</a></li>
+                  <li class="menu__item--btn modal__btn">
+                      <span class="material-icons">confirmation_number</span>
+                      <span class="menu__notice">3</span>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div class="modal">
+          <div class="modal__title">Cart List</div>
+          <ul class="modal__list">
+              <li class="modal__item">
+                  <div class="modal__pic modal--pic1"></div>
+                  <div class="modal__info">
+                      <h3 class="modal__info__title">2020 台味設計展</h3>
+                      <p class="modal__info__date">01 JUN — 31 OCT</p>
+                      <p class="modal__info__ticket">全票</p>
+                      <p class="modal__info__price">NT$350</p>
+                  </div>
+                  <div class="modal__quantity">
+                      <span class="material-icons">remove</span>
+                      <p class="modal__number">01</p>
+                      <span class="material-icons">add</span>
+                  </div>
+                  <span class="material-icons close">close</span>
+              </li>
+              <li class="modal__item">
+                  <div class="modal__pic modal--pic2"></div>
+                  <div class="modal__info">
+                      <h3 class="modal__info__title">2020 台味設計展</h3>
+                      <p class="modal__info__date">01 JUN — 31 OCT</p>
+                      <p class="modal__info__ticket">全票</p>
+                      <p class="modal__info__price">NT$350</p>
+                  </div>
+                  <div class="modal__quantity">
+                      <span class="material-icons">remove</span>
+                      <p class="modal__number">01</p>
+                      <span class="material-icons">add</span>
+                  </div>
+                  <span class="material-icons close">close</span>
+              </li>
+              <li class="modal__item">
+                  <div class="modal__pic modal--pic3"></div>
+                  <div class="modal__info">
+                      <h3 class="modal__info__title">2020 台味設計展</h3>
+                      <p class="modal__info__date">01 JUN — 31 OCT</p>
+                      <p class="modal__info__ticket">全票</p>
+                      <p class="modal__info__price">NT$350</p>
+                  </div>
+                  <div class="modal__quantity">
+                      <span class="material-icons">remove</span>
+                      <p class="modal__number">01</p>
+                      <span class="material-icons">add</span>
+                  </div>
+                  <span class="material-icons close">close</span>
+              </li>
+          </ul>
+          <div class="modal__content">
+              <p class="modal__price">小計<span class="mr-6"></span>NT$1050</p>
+              <a href="checkOut.html" class="btn btn--check">前往結帳</a>
+          </div>
+      </div>
+  </div>
+
+
+  <%- contents %>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

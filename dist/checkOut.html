@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Font-awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Material icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <title>checkOut</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="header__wrap">
+      <div class="container">
+          <div class="header">
+              <h1 class="logo"><a href="index.html" class="logo__item">EXHIBINECTION</a></h1>
+              <ul class="menu">
+                  <li class="menu__item"><a href="#" class="menu__option">Sign in</a></li>
+                  <li class="menu__item"><a href="#" class="menu__option">Sign up</a></li>
+                  <li class="menu__item--btn modal__btn">
+                      <span class="material-icons">confirmation_number</span>
+                      <span class="menu__notice">3</span>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div class="modal">
+          <div class="modal__title">Cart List</div>
+          <ul class="modal__list">
+              <li class="modal__item">
+                  <div class="modal__pic modal--pic1"></div>
+                  <div class="modal__info">
+                      <h3 class="modal__info__title">2020 台味設計展</h3>
+                      <p class="modal__info__date">01 JUN — 31 OCT</p>
+                      <p class="modal__info__ticket">全票</p>
+                      <p class="modal__info__price">NT$350</p>
+                  </div>
+                  <div class="modal__quantity">
+                      <span class="material-icons">remove</span>
+                      <p class="modal__number">01</p>
+                      <span class="material-icons">add</span>
+                  </div>
+                  <span class="material-icons close">close</span>
+              </li>
+              <li class="modal__item">
+                  <div class="modal__pic modal--pic2"></div>
+                  <div class="modal__info">
+                      <h3 class="modal__info__title">2020 台味設計展</h3>
+                      <p class="modal__info__date">01 JUN — 31 OCT</p>
+                      <p class="modal__info__ticket">全票</p>
+                      <p class="modal__info__price">NT$350</p>
+                  </div>
+                  <div class="modal__quantity">
+                      <span class="material-icons">remove</span>
+                      <p class="modal__number">01</p>
+                      <span class="material-icons">add</span>
+                  </div>
+                  <span class="material-icons close">close</span>
+              </li>
+              <li class="modal__item">
+                  <div class="modal__pic modal--pic3"></div>
+                  <div class="modal__info">
+                      <h3 class="modal__info__title">2020 台味設計展</h3>
+                      <p class="modal__info__date">01 JUN — 31 OCT</p>
+                      <p class="modal__info__ticket">全票</p>
+                      <p class="modal__info__price">NT$350</p>
+                  </div>
+                  <div class="modal__quantity">
+                      <span class="material-icons">remove</span>
+                      <p class="modal__number">01</p>
+                      <span class="material-icons">add</span>
+                  </div>
+                  <span class="material-icons close">close</span>
+              </li>
+          </ul>
+          <div class="modal__content">
+              <p class="modal__price">小計<span class="mr-6"></span>NT$1050</p>
+              <a href="checkOut.html" class="btn btn--check">前往結帳</a>
+          </div>
+      </div>
+  </div>
+
+
+  
+
+<!-- checkOut -->
+
+<!-- checkOut1 -->
+<div class="checkOut1">
+    <div class="container">
+        <ul class="checkOut__lineBar">
+            <li class="checkOut__lineBar__item checkOut__lineBar--default">確認訂單</li>
+            <li class="checkOut__lineBar__item">填寫訂購資訊</li>
+            <li class="checkOut__lineBar__item">填寫付款資訊</li>
+            <li class="checkOut__lineBar__item">完成訂購</li>
+        </ul>
+        <ul class="checkOut checkOut--h1">
+            <li class="checkOut__left">
+                <ul class="checkOut__left__list">
+                    <li class="checkOut__left__nav">
+                        <div class="checkOut__left__pic checkOut__left--pic1"></div>
+                        <div class="checkOut__left__info">
+                            <h3 class="checkOut__left__title">2020 台味設計展</h3>
+                            <p class="checkOut__left__date">01 JUN — 31 OCT</p>
+                            <p class="checkOut__left__ticket">全票<span class="number--mb">1</span></p>
+                        </div>
+                        <p class="checkOut__left__price">NT$350</p>
+                        <div class="checkOut__left__quantity">
+                            <span class="material-icons">remove</span>
+                            <p class="checkOut__left__number">01</p>
+                            <span class="material-icons">add</span>
+                        </div>
+                        <div class="checkOut__left__close">
+                            <span class="material-icons">close</span>
+                        </div>
+                    </li>
+                    <li class="checkOut__left__nav">
+                        <div class="checkOut__left__pic checkOut__left--pic2"></div>
+                        <div class="checkOut__left__info">
+                            <h3 class="checkOut__left__title">No.22 線上設計展</h3>
+                            <p class="checkOut__left__date">01 JUN — 31 OCT</p>
+                            <p class="checkOut__left__ticket">全票<span class="number--mb">1</span></p>
+                        </div>
+                        <p class="checkOut__left__price">NT$350</p>
+                        <div class="checkOut__left__quantity">
+                            <span class="material-icons">remove</span>
+                            <p class="checkOut__left__number">01</p>
+                            <span class="material-icons">add</span>
+                        </div>
+                        <div class="checkOut__left__close">
+                            <span class="material-icons">close</span>
+                        </div>
+                    </li>
+                    <li class="checkOut__left__nav">
+                        <div class="checkOut__left__pic checkOut__left--pic3"></div>
+                        <div class="checkOut__left__info">
+                            <h3 class="checkOut__left__title">高雄設計節</h3>
+                            <p class="checkOut__left__date">01 JUN — 31 OCT</p>
+                            <p class="checkOut__left__ticket">全票<span class="number--mb">1</span></p>
+                        </div>
+                        <p class="checkOut__left__price">NT$350</p>
+                        <div class="checkOut__left__quantity">
+                            <span class="material-icons">remove</span>
+                            <p class="checkOut__left__number">01</p>
+                            <span class="material-icons">add</span>
+                        </div>
+                        <div class="checkOut__left__close">
+                            <span class="material-icons">close</span>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="checkOut__right">
+                <div class="checkOut__right__text checkOut__right__text--1">
+                    <p class="checkOut__right__total">小計</p>
+                    <p class="checkOut__right__price">NT$1050</p>
+                </div>
+                <a href="#" class="btn btn--next">下一步</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- checkOut2 -->
+<div class="checkOut2">
+    <div class="container">
+        <ul class="checkOut__lineBar">
+            <li class="checkOut__lineBar__item checkOut__lineBar--default">確認訂單</li>
+            <li class="checkOut__lineBar__item checkOut__lineBar--default">填寫訂購資訊</li>
+            <li class="checkOut__lineBar__item">填寫付款資訊</li>
+            <li class="checkOut__lineBar__item">完成訂購</li>
+        </ul>
+        <ul class="checkOut checkOut--h2">
+            <li class="checkOut__left checkOut__left--2">
+                <ul class="checkOut__left__list">
+                    <li class="checkOut__left__nav">
+                        <div class="checkOut__left__pic checkOut__left--pic1"></div>
+                        <div class="checkOut__left__info">
+                            <h3 class="checkOut__left__title">2020 台味設計展</h3>
+                            <p class="checkOut__left__date">01 JUN — 31 OCT</p>
+                            <p class="checkOut__left__ticket">全票<span class="number--mb">1</span></p>
+                        </div>
+                        <p class="checkOut__left__price">NT$350</p>
+                        <div class="checkOut__left__quantity">
+                            <span class="material-icons op-0">remove</span>
+                            <p class="checkOut__left__number"><span class="dn">0</span>1</p>
+                            <span class="material-icons op-0">add</span>
+                        </div>
+                        <div class="checkOut__left__close">
+                            <span class="material-icons op-0">close</span>
+                        </div>
+                    </li>
+                    <li class="checkOut__left__nav">
+                        <div class="checkOut__left__pic checkOut__left--pic2"></div>
+                        <div class="checkOut__left__info">
+                            <h3 class="checkOut__left__title">No.22 線上設計展</h3>
+                            <p class="checkOut__left__date">01 JUN — 31 OCT</p>
+                            <p class="checkOut__left__ticket">全票<span class="number--mb">1</span></p>
+                        </div>
+                        <p class="checkOut__left__price">NT$350</p>
+                        <div class="checkOut__left__quantity">
+                            <span class="material-icons op-0">remove</span>
+                            <p class="checkOut__left__number"><span class="dn">0</span>1</p>
+                            <span class="material-icons op-0">add</span>
+                        </div>
+                        <div class="checkOut__left__close">
+                            <span class="material-icons op-0">close</span>
+                        </div>
+                    </li>
+                    <li class="checkOut__left__nav">
+                        <div class="checkOut__left__pic checkOut__left--pic3"></div>
+                        <div class="checkOut__left__info">
+                            <h3 class="checkOut__left__title">高雄設計節</h3>
+                            <p class="checkOut__left__date">01 JUN — 31 OCT</p>
+                            <p class="checkOut__left__ticket">全票<span class="number--mb">1</span></p>
+                        </div>
+                        <p class="checkOut__left__price">NT$350</p>
+                        <div class="checkOut__left__quantity">
+                            <span class="material-icons op-0">remove</span>
+                            <p class="checkOut__left__number"><span class="dn">0</span>1</p>
+                            <span class="material-icons op-0">add</span>
+                        </div>
+                        <div class="checkOut__left__close">
+                            <span class="material-icons op-0">close</span>
+                        </div>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn--back">返回</a>
+            </li>
+            <li class="checkOut__right">
+                <div class="checkOut__right__table">
+                    <h3 class="checkOut__right__title">訂購人資訊</h3>
+                    <label for="email" class="checkOut__right__label">
+                        Email
+                        <input class="db" type="email" id="email" placeholder="example@gmail.com">
+                    </label>
+                    <label for="name" class="checkOut__right__label">
+                        姓名
+                        <input class="db" type="text" id="name" placeholder="請輸入姓名">
+                    </label>
+                    <label for="phone" class="checkOut__right__label">
+                        聯絡電話
+                        <input class="db" type="phone" id="phone" placeholder="請輸入電話">
+                    </label>
+                    <label for="discount" class="checkOut__right__label">
+                        優惠碼
+                        <input class="db" type="text" id="discount" placeholder="TG87526">
+                    </label>
+                    <p class="checkOut__right__effctive">優惠碼已生效</p>
+                </div>
+                <div class="checkOut__right__text__wrap--2">
+                    <div class="checkOut__right__text">
+                        <p class="checkOut__right__subtotal">小計</p>
+                        <p class="checkOut__right__subprice">NT$1050</p>
+                    </div>
+                    <div class="checkOut__right__text mt-6">
+                        <p class="checkOut__right__subtotal">折扣</p>
+                        <p class="checkOut__right__subprice">-NT$50</p>
+                    </div>
+                    <div class="checkOut__right__text mt-6">
+                        <p class="checkOut__right__total">總金額</p>
+                        <p class="checkOut__right__price">NT$1000</p>
+                    </div>
+                </div>
+                <a href="#" class="btn btn--next">下一步</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- checkOut3 -->
+<div class="checkOut3">
+    <div class="container">
+        <ul class="checkOut__lineBar">
+            <li class="checkOut__lineBar__item checkOut__lineBar--default">確認訂單</li>
+            <li class="checkOut__lineBar__item checkOut__lineBar--default">填寫訂購資訊</li>
+            <li class="checkOut__lineBar__item checkOut__lineBar--default">填寫付款資訊</li>
+            <li class="checkOut__lineBar__item">完成訂購</li>
+        </ul>
+        <ul class="checkOut checkOut--h3">
+            <li class="checkOut__left checkOut__left--3">
+                <ul class="checkOut__left__list">
+                    <li class="checkOut__left__nav">
+                        <div class="checkOut__left__pic checkOut__left--pic1"></div>
+                        <div class="checkOut__left__info">
+                            <h3 class="checkOut__left__title">2020 台味設計展</h3>
+                            <p class="checkOut__left__date">01 JUN — 31 OCT</p>
+                            <p class="checkOut__left__ticket">全票<span class="number--mb">1</span></p>
+                        </div>
+                        <p class="checkOut__left__price">NT$350</p>
+                        <div class="checkOut__left__quantity">
+                            <span class="material-icons op-0">remove</span>
+                            <p class="checkOut__left__number"><span class="dn">0</span>1</p>
+                            <span class="material-icons op-0">add</span>
+                        </div>
+                        <div class="checkOut__left__close">
+                            <span class="material-icons op-0">close</span>
+                        </div>
+                    </li>
+                    <li class="checkOut__left__nav">
+                        <div class="checkOut__left__pic checkOut__left--pic2"></div>
+                        <div class="checkOut__left__info">
+                            <h3 class="checkOut__left__title">No.22 線上設計展</h3>
+                            <p class="checkOut__left__date">01 JUN — 31 OCT</p>
+                            <p class="checkOut__left__ticket">全票<span class="number--mb">1</span></p>
+                        </div>
+                        <p class="checkOut__left__price">NT$350</p>
+                        <div class="checkOut__left__quantity">
+                            <span class="material-icons op-0">remove</span>
+                            <p class="checkOut__left__number"><span class="dn">0</span>1</p>
+                            <span class="material-icons op-0">add</span>
+                        </div>
+                        <div class="checkOut__left__close">
+                            <span class="material-icons op-0">close</span>
+                        </div>
+                    </li>
+                    <li class="checkOut__left__nav">
+                        <div class="checkOut__left__pic checkOut__left--pic3"></div>
+                        <div class="checkOut__left__info">
+                            <h3 class="checkOut__left__title">高雄設計節</h3>
+                            <p class="checkOut__left__date">01 JUN — 31 OCT</p>
+                            <p class="checkOut__left__ticket">全票<span class="number--mb">1</span></p>
+                        </div>
+                        <p class="checkOut__left__price">NT$350</p>
+                        <div class="checkOut__left__quantity">
+                            <span class="material-icons op-0">remove</span>
+                            <p class="checkOut__left__number"><span class="dn">0</span>1</p>
+                            <span class="material-icons op-0">add</span>
+                        </div>
+                        <div class="checkOut__left__close">
+                            <span class="material-icons op-0">close</span>
+                        </div>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn--back">返回</a>
+            </li>
+            <li class="checkOut__right">
+                <div class="checkOut__right__table">
+                    <h3 class="checkOut__right__title">付款資訊</h3>
+                    <label for="credit" class="checkOut__right__label">
+                        信用卡帳號
+                        <input class="db" type="text" id="credit" placeholder="Xxxx-xxxx-xxxx-xxxx">
+                    </label>
+                    <label for="date" class="checkOut__right__label">
+                        有效日期
+                        <input class="db" type="text" id="date" placeholder="(MM/YY)">
+                    </label>
+                    <label for="password" class="checkOut__right__label">
+                        安全碼
+                        <input class="db" type="password" id="password" placeholder="***">
+                    </label>
+                </div>
+                <div class="checkOut__right__text__wrap--3">
+                    <div class="checkOut__right__text">
+                        <p class="checkOut__right__subtotal">小計</p>
+                        <p class="checkOut__right__subprice">NT$1050</p>
+                    </div>
+                    <div class="checkOut__right__text mt-6">
+                        <p class="checkOut__right__subtotal">折扣</p>
+                        <p class="checkOut__right__subprice">-NT$50</p>
+                    </div>
+                    <div class="checkOut__right__text mt-6">
+                        <p class="checkOut__right__total">總金額</p>
+                        <p class="checkOut__right__price">NT$1000</p>
+                    </div>
+                </div>
+                <a href="#" class="btn btn--next">下一步</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- checkOut4 -->
+<div class="checkOut4">
+    <!-- breadcrumb -->
+    <div class="breadcrumb__wrap">
+        <ul class="breadcrumb">
+            <li class="breadcrumb__item"><a href="#" class="breadcrumb__option">音樂</a></li>
+            <li class="breadcrumb__item"><a href="#" class="breadcrumb__option">戲劇</a></li>
+            <li class="breadcrumb__item"><a href="page1.html" class="breadcrumb__option">設計</a></li>
+            <li class="breadcrumb__item"><a href="#" class="breadcrumb__option">藝術</a></li>
+            <li class="breadcrumb__item"><a href="#" class="breadcrumb__option">美食</a></li>
+            <li class="breadcrumb__item"><a href="#" class="breadcrumb__option">旅遊</a></li>
+            <li class="breadcrumb__item"><a href="#" class="breadcrumb__option">電影</a></li>
+            <li class="breadcrumb__item"><a href="#" class="breadcrumb__option">親子</a></li>
+            <li class="breadcrumb__item"><a href="#" class="breadcrumb__option">期間限定</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="checkOut4__content checkOut--h4">
+            <div class="checkOut4__finish">
+                <span class="material-icons">check_circle_outline</span>
+                <p class="checkOut4__finish__title">完成訂購</p>
+            </div>
+            <div class="checkOut4__wording">
+                <p class="checkOut4__text">您的展覽憑證代碼為：</p>
+                <p class="checkOut4__password">qr147352</p>
+                <p class="checkOut4__text">恭喜您已完成「2020 台味設計展」的購票手續，請於 2020/06/01 ~ 2020/10/31
+                    於展覽入口頁面輸入「展覽憑證代碼」，經驗證無誤即可瀏覽。</p>
+            </div>
+            <div class="checkOut4__btn-group">
+                <a href="page1.html" class="btn btn--keep">繼續瀏覽</a>
+                <a href="index.html" class="btn btn--watch">看展去</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

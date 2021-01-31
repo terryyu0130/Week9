@@ -1,0 +1,173 @@
+// banner__page2
+.banner__design {
+    padding: 80px 0 40px;
+    @include mobile {
+        padding: 44px 0 40px;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        @include mobile {
+            flex-wrap: wrap;
+        }
+    }
+    // left
+    &__project {
+        width: 48.65%;
+        @include mobile {
+            width: 100%;
+        }
+    }
+    &__pic {
+        width: 100%;
+        padding-top: 47.41%;
+        background-image: url("https://images.unsplash.com/photo-1545987796-b199d6abb1b4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        @include mobile {
+            padding-top: 74.205%;
+        }
+    }
+    &__date {
+        width: 1%;
+        color: $color-white;
+        font: normal normal bold 20px/30px Roboto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include mobile {
+            width: auto;
+            color: $color-black;
+            flex-direction: row;
+            right: 0;
+            align-items: flex-end;
+            transform: translateY(38px);
+            font: normal normal normal 16px/24px Roboto;
+        }
+    }
+    &__title {
+        color: $color-black;
+        font: normal normal bold 20px/30px Noto Sans CJK TC;
+        margin-top: $small-md;
+        display: flex;
+        align-items: center;
+    }
+    .facebook {
+        color: $color-black;
+        padding-top: 6px;
+        margin-left: $small-md;
+    }
+    &__text {
+        color: $color-black;
+        font: normal normal bold 16px/24px Roboto;
+        margin-top: $small-sm;
+    }
+    // right
+    &__info {
+        width: 48.65%;
+        @include mobile {
+            width: 100%;
+        }
+    }
+    &__order {
+        display: flex;
+        justify-content: space-between;
+        padding: 15.558% 0 5.558%;
+        position: relative;
+        @include mobile {
+            flex-wrap: wrap;
+            padding: 0;
+        }
+        &::after {
+            content: "";
+            width: 1px;
+            height: 100%;
+            background-color: $color-black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            @include mobile {
+                display: none;
+            }
+        }
+    }
+    &__part {
+        width: 50%;
+        text-align: center;
+        @include mobile {
+            width: 100%;
+            margin-top: 40px;
+        }
+    }
+    &__category {
+        color: $color-black;
+        font: normal normal bold 16px/24px Noto Sans CJK TC;
+        margin-top: $middle-md;
+    }
+    &__quantity,
+    &__ticket {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__ticket {
+        margin-top: $small-md;
+    }
+    &__item {
+        color: $color-black;
+        font: normal normal normal 16px/24px Noto Sans CJK TC;
+        padding: 0 $small-md;
+        border-bottom: 2px solid transparent;
+        transition: 0.5s;
+        cursor: pointer;
+        &:hover {
+            border-bottom: 2px solid $color-warning;
+        }
+    }
+    &__number,
+    &__price {
+        color: $color-black;
+        font: normal normal bold 40px/60px Roboto;
+        margin: 0 40px;
+        @include mobile {
+            font: normal normal bold 40px/60px Roboto;
+        }
+    }
+    &__number {
+        margin: 0 40px;
+    }
+    &__btn-group {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 42px;
+    }
+    .btn {
+        width: 46%;
+        font: normal normal normal 16px/24px Noto Sans CJK TC;
+        display: block;
+        padding: $small-lg 0;
+        text-align: center;
+        border-radius: $small-sm;
+        transition: 0.5s;
+        &:hover {
+            color: $color-white;
+            background-color: $color-black;
+        }
+    }
+    .btn--collect {
+        color: $color-btn;
+        border: 1px solid $color-btn;
+    }
+    .btn--buy {
+        color: $color-white;
+        background-color: $color-warning;
+        border: 1px solid $color-warning;
+    }
+}

@@ -1,0 +1,110 @@
+// footer
+.footer__wrap {
+    padding-top: 31.25%;
+    background-image: url("https://images.unsplash.com/photo-1536768767433-cc552f38def9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    @include mobile {
+        width: 100%;
+        padding-top: 106.668%;
+    }
+    &__content {
+        position: absolute;
+        bottom: 38px;
+        @include mobile {
+            width: 92%;
+        }
+    }
+    &__title {
+        color: $color-white;
+        font: normal normal bold 32px/48px Noto Sans CJK TC;
+        @include mobile {
+            font: normal normal bold 24px/36px Noto Sans CJK TC;
+        }
+    }
+    &__group {
+        width: 91.148%;
+        display: flex;
+        margin-top: $small-lg;
+        background-color: navy;
+        @include mobile {
+            width: 100%;
+            margin-top: $middle-md;
+        }
+    }
+    &__email {
+        width: 61.425%;
+        padding: $small-lg $small-lg;
+        border: none;
+        outline: none;
+        border-radius: $small-sm 0 0 $small-sm;
+        &::placeholder {
+            color: #818a91;
+            font: normal normal normal 16px/24px Noto Sans CJK TC;
+        }
+    }
+    &__submit {
+        width: 38.575%;
+        padding: $small-lg 0;
+        font: normal normal normal 16px/24px Noto Sans CJK TC;
+        color: $color-white;
+        text-align: center;
+        background-color: $color-warning;
+        border: none;
+        outline: none;
+        border-radius: 0 $small-sm $small-sm 0;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+            background-color: $color-btn;
+        }
+    }
+}
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 0;
+    @include mobile {
+        padding: $small 0;
+        flex-wrap: wrap;
+    }
+    &--text {
+        width: 15%;
+        color: $color-black;
+        font: normal normal normal 22px/23px Arial Hebrew Scholar;
+        margin-right: $small-lg;
+        @include mobile {
+            width: 100%;
+        }
+    }
+    &__copyright {
+        width: 35%;
+        font: normal normal normal 16px/24px Helvetica Neue;
+        @include mobile {
+            width: 100%;
+            margin-top: $small-sm;
+        }
+    }
+    .menu {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        @include mobile {
+            display: none;
+        }
+        &__option {
+            display: block;
+            color: $color-secondary;
+            font: normal normal normal 16px/21px Roboto;
+            margin-left: 32px;
+            position: relative;
+            transition: 0.5s;
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}
